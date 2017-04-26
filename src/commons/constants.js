@@ -1,6 +1,7 @@
 export const CELL_TYPE_STRING = 'string';
 export const CELL_TYPE_NUMBER = 'number';
-export const validTypes = [CELL_TYPE_STRING, CELL_TYPE_NUMBER];
+export const CELL_TYPE_DATETIME = 'datetime';
+export const validTypes = [CELL_TYPE_STRING, CELL_TYPE_NUMBER, CELL_TYPE_DATETIME];
 
 export const MISSING_KEY_FILENAME = 'Zipclex config missing property filename';
 export const INVALID_TYPE_FILENAME = 'Zipclex filename can only be of type string';
